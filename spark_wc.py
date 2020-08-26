@@ -28,7 +28,7 @@ final_count = word_rdd.reduceByKey(add).collect()
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Jebus_Crust1",
+  password="Hidden-Password",
   database = "wordcount"
 )
 mycursor = mydb.cursor()
